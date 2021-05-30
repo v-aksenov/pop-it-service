@@ -1,0 +1,9 @@
+PUT http://localhost:8080/pop-it-service/add
+Content-Type: application/json
+
+{
+  "color":"blue",
+  "price":"50.00"
+}
+###
+GET http://localhost:8080/pop-it-service/get-by-color?color=blue
